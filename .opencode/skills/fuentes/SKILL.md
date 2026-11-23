@@ -11,13 +11,13 @@ La pregunta da el nombre de una proteína o de un gen, o pide una referencia bib
 
 ## Método A — la ficha de la proteína (UniProt)
 
-1. Busca el nombre de la proteína o del gen. La columna `Entry` es el código (`<ACC>`). Si no devuelve filas, tradúcelo al inglés y repite:
+1. Ejecuta el comando (no lo describas de memoria). La columna `Entry` es el código (`<ACC>`). Si no devuelve filas, tradúcelo al inglés y repite:
 
    ```bash
    curl -s "https://rest.uniprot.org/uniprotkb/search?query=<nombre>&format=tsv&fields=accession,protein_name,organism_name,length&size=5"
    ```
 
-2. <!-- HUECO 2 · El nombre puede devolver varias entradas. ¿Qué haces: elegir la que parezca mejor o parar? -->
+2. <!-- HUECO 2 · Si salen varias y la pregunta no dice la especie, ¿qué haces? ¿Y si una parece la más común? -->
 3. Abre la ficha en `https://www.uniprot.org/uniprotkb/<ACC>/entry`.
 4. Extrae longitud, organismo, función y el nombre del gen.
 5. Anota la versión de la base (viene en la cabecera `X-UniProt-Release`) y la fecha de consulta.

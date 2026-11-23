@@ -14,10 +14,11 @@ Mírala solo si te trabas.
 
 ## 2 · `skills/fuentes/SKILL.md`
 
-**El nombre devuelve varias entradas: ¿elegir o parar?**
+**Si salen varias y la pregunta no dice la especie, ¿qué haces?**
 
 ```markdown
-2. Si el nombre devuelve varias entradas, lístalas y para: no elijas por tu cuenta.
+2. Si salen varias filas y la pregunta no dice la especie, no sigas: lista las
+   candidatas y para. No elijas aunque una parezca la más común.
 ```
 
 **Comprueba:** `¿qué es la mioglobina?` → lista y para. `¿de rata?` → sigue sola.

@@ -15,7 +15,7 @@ memoria.
 
 ## Reglas
 
-1. Dato verificable → consúltalo y cita la URL.
+1. Dato verificable → ejecútalo y cita la URL que abriste en esta sesión. No cites de memoria.
 2. Si no existe o no aparece → "sin datos".
 3. Si hay que enviar un BLAST → usa el shell.
 4. Respuesta breve, con una sección **Fuentes**.
