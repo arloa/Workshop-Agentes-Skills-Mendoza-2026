@@ -23,6 +23,9 @@ Queda en `Workshop-Agentes-Skills-Mendoza-2026/`. Cierra esa sesión y abre
 `opencode` otra vez **dentro de esa carpeta**: solo lee el `.opencode/` del
 directorio donde se lanza y de sus padres, nunca de una subcarpeta.
 
+En Windows, escribe `curl.exe` en los comandos: `curl` es un alias de
+`Invoke-WebRequest` en PowerShell.
+
 ## La actividad
 
 Las piezas tienen cuatro huecos marcados `HUECO` en los skills y el agente. 

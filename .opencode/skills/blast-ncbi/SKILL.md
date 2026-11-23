@@ -20,17 +20,17 @@ La pregunta pide buscar secuencias similares de una proteína contra PDB.
    curl -s "https://rest.uniprot.org/uniprotkb/search?query=<nombre>&format=tsv&fields=accession,protein_name,organism_name,length&size=5"
    ```
 
-2. Descarga la secuencia del código (BLAST no acepta códigos):
+2. Descarga la secuencia del código a un archivo (BLAST no acepta códigos):
 
    ```bash
-   seq=$(curl -s "https://rest.uniprot.org/uniprotkb/<ACC>.fasta" | tail -n +2 | tr -d '\n\r ')
+   curl -s "https://rest.uniprot.org/uniprotkb/<ACC>.fasta" -o seq.fa
    ```
 
 3. Envía el trabajo. Devuelve un `RID`, no resultados: extrae el `RID` de la
    respuesta y arma `https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=<RID>`.
 
    ```bash
-   curl -s --data-urlencode "QUERY=$seq" \
+   curl -s --data-urlencode "QUERY@seq.fa" \
      "https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Put&PROGRAM=blastp&DATABASE=pdb&HITLIST_SIZE=10"
    ```
 
@@ -38,3 +38,7 @@ La pregunta pide buscar secuencias similares de una proteína contra PDB.
 
 Cita el código, el programa, la base, el enlace con `RID` y la fecha de envío.
 Si no hay `RID`, avisa que falló el envío.
+
+## Windows
+
+Escribe `curl.exe`: en PowerShell `curl` es un alias de `Invoke-WebRequest`.
