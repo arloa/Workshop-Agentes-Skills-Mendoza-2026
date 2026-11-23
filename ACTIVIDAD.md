@@ -56,8 +56,9 @@ Los prompts, con el nombre que te den. Cada uno se lanza en el bloque que le toc
 | 3 | `skills/blast-ncbi/SKILL.md` | que el skill se active cuando toca |
 | 4 | `skills/informe/SKILL.md` | que el informe sirva de prueba |
 
-La pregunta está dentro de cada archivo: no hay clave. Si el agente la contesta
-antes que tú, borra su respuesta y escribe la tuya.
+La pregunta está dentro de cada archivo. Si te trabas, `CLAVE.md` tiene la
+respuesta esperada y cómo comprobarla. Si el agente la contesta antes que tú,
+borra su respuesta y escribe la tuya.
 
 ## Las tres facetas
 

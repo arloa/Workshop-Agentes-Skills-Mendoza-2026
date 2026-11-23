@@ -7,6 +7,7 @@ skills para hacer tareas de bioinformática **reproducibles y documentadas**.
 
 ```
 ACTIVIDAD.md          → el enunciado, con el guion de los 45 minutos
+CLAVE.md              → la respuesta esperada de cada hueco, si te trabas
 .opencode/agents/     → el agente
 .opencode/skills/     → fuentes (UniProt + PubMed), blast-ncbi, informe
 .opencode/commands/   → atajo /blast-pdb
