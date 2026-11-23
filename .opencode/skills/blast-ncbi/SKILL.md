@@ -14,7 +14,7 @@ La pregunta pide buscar secuencias similares de una proteína contra PDB.
 
 ## Método
 
-1. Toma el nombre de la proteína de la pregunta y búscalo en UniProt. Si salen varias filas, lístalas y para:
+1. Toma el nombre de la proteína de la pregunta y búscalo en UniProt. Si no devuelve filas, tradúcelo al inglés. Si salen varias, lístalas y para:
 
    ```bash
    curl -s "https://rest.uniprot.org/uniprotkb/search?query=<nombre>&format=tsv&fields=accession,protein_name,organism_name,length&size=5"

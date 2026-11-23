@@ -11,7 +11,7 @@ La pregunta da el nombre de una proteína o de un gen, o pide una referencia bib
 
 ## Método A — la ficha de la proteína (UniProt)
 
-1. Busca el nombre de la proteína o del gen. La columna `Entry` es el código (`<ACC>`):
+1. Busca el nombre de la proteína o del gen. La columna `Entry` es el código (`<ACC>`). Si no devuelve filas, tradúcelo al inglés y repite:
 
    ```bash
    curl -s "https://rest.uniprot.org/uniprotkb/search?query=<nombre>&format=tsv&fields=accession,protein_name,organism_name,length&size=5"
