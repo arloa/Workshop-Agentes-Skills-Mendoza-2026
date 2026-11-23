@@ -28,15 +28,15 @@ Las piezas tienen cuatro huecos marcados `HUECO` en los skills y el agente.
 
 **No se ejecuta nada hasta haberlo leído y completado.** Primero se lee qué haría cada pieza y se rellena el hueco; después se lanza y se comprueba. Un agente del que no sabes qué hace no se pone en marcha.
 
-| min | bloque | qué haces |
-|---|---|---|
-| 0–5 | Arranque | clona, abre `opencode` |
-| 5–12 | Lectura | lee el agente y los tres skills: qué haría cada uno |
-| 12–19 | HUECO 1 | ¿dónde puede escribir? y lo compruebas con el primer prompt |
-| 19–26 | HUECO 2 | ¿qué hace si el nombre devuelve varias? y lo compruebas |
-| 26–33 | HUECO 3 | la descripción del skill de BLAST, y lo lanzas |
-| 33–39 | HUECO 4 | qué convierte el informe en prueba |
-| 39–45 | Atajo | `/blast-pdb mioglobina de rata`: hace lo mismo, pero no añade criterio |
+| bloque | qué haces |
+|---|---|
+| Arranque | clona, abre `opencode` |
+| Lectura | lee el agente y los tres skills: qué haría cada uno |
+| HUECO 1 | ¿dónde puede escribir? y lo compruebas con el primer prompt |
+| HUECO 2 | ¿qué hace si el nombre devuelve varias? y lo compruebas |
+| HUECO 3 | la descripción del skill de BLAST, y lo lanzas |
+| HUECO 4 | qué convierte el informe en prueba |
+| Atajo | `/blast-pdb mioglobina de rata`: hace lo mismo, pero no añade criterio |
 
 Los prompts, con el nombre que te den. Cada uno se lanza en el bloque que le toca:
 
