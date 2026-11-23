@@ -13,14 +13,15 @@ sesión.
 
 ## Preparación
 
-Abre `opencode` en una carpeta vacía y pídele que baje el repositorio:
+Abre `opencode` en una carpeta y pídele:
 
 ```
 clona https://github.com/arloa/Workshop-Agentes-Skills-Mendoza-2026
 ```
 
-Cuando termine, cierra esa sesión, entra en la carpeta clonada y arranca
-`opencode` otra vez desde ahí: así carga el agente y los skills de `.opencode/`.
+Queda en `Workshop-Agentes-Skills-Mendoza-2026/`. Cierra esa sesión y abre
+`opencode` otra vez **dentro de esa carpeta**: solo lee el `.opencode/` del
+directorio donde se lanza y de sus padres, nunca de una subcarpeta.
 
 ## La actividad
 

@@ -23,14 +23,15 @@ resuelve igual, pero no deja un método que otra persona pueda repetir.
 
 ## Empezar
 
-Abre `opencode` en una carpeta vacía y pídele que baje el repositorio:
+Abre `opencode` en una carpeta vacía y pídele:
 
 ```
-clona https://github.com/arloa/Workshop-Agentes-Skills-Mendoza-2026
+clona https://github.com/arloa/Workshop-Agentes-Skills-Mendoza-2026 en esta carpeta
 ```
 
-Cuando termine, cierra esa sesión y arranca `opencode` dentro de la carpeta
-clonada: las piezas están en `.opencode/`, así que se cargan solas.
+Queda en `Workshop-Agentes-Skills-Mendoza-2026/`. Cierra esa sesión y abre
+`opencode` otra vez **dentro de esa carpeta**: solo lee el `.opencode/` del
+directorio donde se lanza y de sus padres, nunca de una subcarpeta.
 
 ## Por dónde seguir
 
