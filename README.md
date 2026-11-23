@@ -23,14 +23,14 @@ resuelve igual, pero no deja un método que otra persona pueda repetir.
 
 ## Empezar
 
-```bash
-git clone https://github.com/arloa/bioquimica-agentes.git
-cd bioquimica-agentes
-opencode
+Abre `opencode` en una carpeta vacía y pídele que baje el repositorio:
+
+```
+clona https://github.com/arloa/Workshop-Agentes-Skills-Mendoza-2026
 ```
 
-Las piezas ya están en `.opencode/`: se arranca desde la raíz del repositorio,
-sin copiar nada.
+Cuando termine, cierra esa sesión y arranca `opencode` dentro de la carpeta
+clonada: las piezas están en `.opencode/`, así que se cargan solas.
 
 ## Por dónde seguir
 

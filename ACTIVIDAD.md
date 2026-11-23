@@ -13,23 +13,18 @@ sesión.
 
 ## Preparación
 
-Baja el repositorio y entra en él:
+Abre `opencode` en una carpeta vacía y pídele que baje el repositorio:
 
-```bash
-git clone https://github.com/arloa/bioquimica-agentes.git
-cd bioquimica-agentes
+```
+clona https://github.com/arloa/Workshop-Agentes-Skills-Mendoza-2026
 ```
 
-Las piezas ya están en `.opencode/`, así que no hay que copiar nada: arranca
-`opencode` desde la raíz del repositorio.
+Cuando termine, cierra esa sesión, entra en la carpeta clonada y arranca
+`opencode` otra vez desde ahí: así carga el agente y los skills de `.opencode/`.
 
 ## La actividad
 
-Las piezas tienen cuatro huecos marcados `HUECO` en los skills y el agente. Búscalos con:
-
-```bash
-grep -rn HUECO .opencode/
-```
+Las piezas tienen cuatro huecos marcados `HUECO` en los skills y el agente. 
 
 **No se ejecuta nada hasta haberlo leído y completado.** Primero se lee qué haría cada pieza y se rellena el hueco; después se lanza y se comprueba. Un agente del que no sabes qué hace no se pone en marcha.
 
@@ -76,11 +71,3 @@ antes que tú, borra su respuesta y escribe la tuya.
 
 El agente decide qué hacer, el skill decide cómo. El shell queda abierto a
 propósito: en producción se acota con reglas `shell`.
-
-## Qué comprobar al final
-
-Intercambia tu skill con otra pareja y comprueba que llega al mismo resultado
-solo con lo que escribiste.
-
-Después, a mano: la ficha de UniProt que citaste, `blast.ncbi.nlm.nih.gov` y
-`pubmed.ncbi.nlm.nih.gov`. Cada dato del `informe.md` tiene que llevar su URL.
