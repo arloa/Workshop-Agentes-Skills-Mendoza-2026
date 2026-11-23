@@ -36,7 +36,7 @@ Las piezas tienen cuatro huecos marcados `HUECO` en los skills y el agente.
 | 19–26 | HUECO 2 | ¿qué hace si el nombre devuelve varias? y lo compruebas |
 | 26–33 | HUECO 3 | la descripción del skill de BLAST, y lo lanzas |
 | 33–39 | HUECO 4 | qué convierte el informe en prueba |
-| 39–45 | Intercambio | otra pareja ejecuta tu skill solo con lo que escribiste |
+| 39–45 | Atajo | `/blast-pdb mioglobina de rata`: hace lo mismo, pero no añade criterio |
 
 Los prompts, con el nombre que te den. Cada uno se lanza en el bloque que le toca:
 
@@ -45,8 +45,6 @@ Los prompts, con el nombre que te den. Cada uno se lanza en el bloque que le toc
 @bioquimica Haz un BLAST de la mioglobina de rata contra PDB y dame el enlace
 @bioquimica Redacta el informe
 ```
-
-Si sobra tiempo: `/blast-pdb mioglobina de rata` hace lo mismo desde un atajo.
 
 ## Los cuatro huecos
 
